@@ -5,4 +5,12 @@ package epam.courses.model.entities;
  */
 public abstract class Plant {
     Amount amount;
+
+    public Amount getAmount() {
+        return amount;
+    }
+
+    public void setAmount(Amount amount) {
+        this.amount = amount;
+    }
 }
